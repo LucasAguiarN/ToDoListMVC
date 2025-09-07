@@ -10,7 +10,7 @@ class User(db.Model): # Declaração de um novo modelo/tabela: User
     name = db.Column(db.String(100), nullable=False)
     email = db.Column(db.String(100), unique=True, nullable=False)
 
-    # TODO Definir o relacionamento 1:N entre User e Task
+    tasks = db.relationship("Task", back_populates="user") # Relacionamento com Tabela Task
 
     def __repr__(self):
         return f"<User {self.name}>"

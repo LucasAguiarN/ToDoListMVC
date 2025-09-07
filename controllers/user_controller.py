@@ -15,7 +15,6 @@ class UserController:
         if request.method == 'POST':
             name = request.form['name']
             email = request.form['email']
-
             existing_user = User.query.filter_by(email=email).first()
             if existing_user:
                 return render_template('create_user.html', error="Usuário com este e-mail já existe", name=name, email=email)
