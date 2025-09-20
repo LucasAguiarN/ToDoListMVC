@@ -23,7 +23,7 @@
     <a href="#licença">Licença</a>
 </p>
 
-<h2 id="sobre" align="center">📖 Sobre</h2>
+<h2 id="sobre">📖 Sobre</h2>
 Exercício da Disciplina de Desenvolvimento de APIs e Microsserviços, ministrada pelo professor Giovani Bontempo na Faculdade Impacta, durante o terceiro semestre do curso Análise e Desenvolvimento de Sistemas cursado no 2º Semestre de 2025.
 <br><br>
 O objetivo deste exercício é evoluir a aplicação vista em aula: https://github.com/giovbon/MVC-flask.
@@ -41,7 +41,7 @@ várias Tarefas).<br>
 
 <br>
 
-<h2 id="grupo" align="center">👥 Integrantes do Grupo 12</h2>
+<h2 id="grupo">👥 Integrantes do Grupo 12</h2>
 <table align="center">
   <tr>
     <td align="center">
