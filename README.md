@@ -66,15 +66,44 @@ várias Tarefas).<br>
 </table>
 
 <h2 id="how-it-works">⚙️ Funcionalidades</h2>
-🔹 Cadastro de Usuário:
-<br>🔹 Cadastro de Tarefas:
-<br>🔹 Listagem de Usuários:
-<br>🔹 Listagem de Tarefas:
-<br>🔹 Alterar Status de Tarefas:
-<br>🔹 Deletar Tarefas:
+🔹 Cadastro de Usuário
+<br>🔹 Cadastro de Tarefas
+<br>🔹 Listagem de Usuários
+<br>🔹 Listagem de Tarefas
+<br>🔹 Alterar Status de Tarefas
+<br>🔹 Deletar Tarefas
 
 <h2 id="endpoints">🛠️ Endpoints da API</h2>
-      localhost.'/'
+Listagem de Usuários
+```
+    http://localhost:5002
+```
+<br>
+Cadastro de Usuário POST
+```
+    http://localhost:5002/create_user
+```
+<br>
+Listagem de Tarefas
+```
+    http://localhost:5002/tasks
+```
+<br>
+Cadastro de Tarefas
+```
+    http://localhost:5002/tasks/new
+```
+<br>
+Alterar Status de Tarefas POST
+```
+    http://localhost:5002/tasks/update/<int:task_id>
+```
+<br>
+Deletar Tarefas POST
+```
+    http://localhost:5002//tasks/delete/<int:task_id>
+```
+<br>
 
 <h2 id="licença">📜 Licença</h2>
 Este projeto é para fins educacionais e está disponível sob a <a href="./LICENSE">Licença MIT.</a>
