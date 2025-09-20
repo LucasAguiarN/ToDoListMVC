@@ -2,6 +2,12 @@
 
 <h3 align="center"><img  alt="Faculdade Impacta" width = "400px" src="https://www.impacta.edu.br/themes/wc_agenciar3/images/logo-new.png"></h3>
 
+<p>
+    <img src="https://img.shields.io/badge/Status-Concluído-brightgreen" alt="Status = Concluído">
+    <img src="https://img.shields.io/badge/Documentação-Completa-brightgreen" alt="Documentação: Completa">
+    <img src="https://img.shields.io/badge/License-MIT-blue" alt="License = MIT">
+</p>
+
 <br>
 
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
@@ -10,11 +16,14 @@
 ![Swagger](https://img.shields.io/badge/-Swagger-%23Clojure?style=for-the-badge&logo=swagger&logoColor=white)
 
 <p align="center">
-    <a href="#sobre">Sobre</a> •
-    <a href="#grupo">Integrantes do Grupo 12</a>
+    <a href="#sobre">Sobre</a> • 
+    <a href="#grupo">Integrantes do Grupo</a> •
+    <a href="#how-it-works">Funcionalidades</a> •
+    <a href="#endpoints">Endpoints da API</a> •
+    <a href="#licença">Licença</a>
 </p>
 
-<h2 id="sobre" align="center">Sobre</h2>
+<h2 id="sobre" align="center">📖 Sobre</h2>
 Exercício da Disciplina de Desenvolvimento de APIs e Microsserviços, ministrada pelo professor Giovani Bontempo na Faculdade Impacta, durante o terceiro semestre do curso Análise e Desenvolvimento de Sistemas cursado no 2º Semestre de 2025.
 <br><br>
 O objetivo deste exercício é evoluir a aplicação vista em aula: https://github.com/giovbon/MVC-flask.
@@ -32,7 +41,7 @@ várias Tarefas).<br>
 
 <br>
 
-<h2 id="grupo" align="center">Integrantes do Grupo 12</h2>
+<h2 id="grupo" align="center">👥 Integrantes do Grupo 12</h2>
 <table align="center">
   <tr>
     <td align="center">
@@ -55,3 +64,17 @@ várias Tarefas).<br>
     </td>
   </tr>
 </table>
+
+<h2 id="how-it-works">⚙️ Funcionalidades</h2>
+🔹 Cadastro de Usuário:
+<br>🔹 Cadastro de Tarefas:
+<br>🔹 Listagem de Usuários:
+<br>🔹 Listagem de Tarefas:
+<br>🔹 Alterar Status de Tarefas:
+<br>🔹 Deletar Tarefas:
+
+<h2 id="endpoints">🛠️ Endpoints da API</h2>
+      localhost.'/'
+
+<h2 id="licença">📜 Licença</h2>
+Este projeto é para fins educacionais e está disponível sob a <a href="./LICENSE">Licença MIT.</a>
