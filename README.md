@@ -74,36 +74,35 @@ várias Tarefas).<br>
 <br>🔹 Deletar Tarefas
 
 <h2 id="endpoints">🛠️ Endpoints da API</h2>
+
 Listagem de Usuários
+```bash
+curl -X GET http://localhost:5002
 ```
-    http://localhost:5002
+Cadastro de Usuário
+```bash
+curl -X POST http://localhost:5002/create_user \
+    -H "Content-Type: application/json" \
+    -d '{"name":"Lucas","email":"lucas@email.com"}'
 ```
-<br>
-Cadastro de Usuário POST
-```
-    http://localhost:5002/create_user
-```
-<br>
 Listagem de Tarefas
+```bash
+curl -X GET http://localhost:5002/tasks
 ```
-    http://localhost:5002/tasks
-```
-<br>
 Cadastro de Tarefas
+```bash
+curl -X POST http://localhost:5002/tasks/new \
+    -H "Content-Type: application/json" \
+    -d '{"user_id":"1","title":"Tarefa 1", "description":"Descrição da Tarefa"}'
 ```
-    http://localhost:5002/tasks/new
+Alterar Status de Tarefas
+```bash
+curl -X POST http://localhost:5002/tasks/update/<int:task_id>
 ```
-<br>
-Alterar Status de Tarefas POST
+Deletar Tarefas
+```bash
+curl -X POST http://localhost:5002//tasks/delete/<int:task_id>
 ```
-    http://localhost:5002/tasks/update/<int:task_id>
-```
-<br>
-Deletar Tarefas POST
-```
-    http://localhost:5002//tasks/delete/<int:task_id>
-```
-<br>
 
 <h2 id="licença">📜 Licença</h2>
 Este projeto é para fins educacionais e está disponível sob a <a href="./LICENSE">Licença MIT.</a>
