@@ -13,11 +13,11 @@
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 ![Flask](https://img.shields.io/badge/flask-%23000.svg?style=for-the-badge&logo=flask&logoColor=white)
 ![SQLite](https://img.shields.io/badge/sqlite-%2307405e.svg?style=for-the-badge&logo=sqlite&logoColor=white)
-![Swagger](https://img.shields.io/badge/-Swagger-%23Clojure?style=for-the-badge&logo=swagger&logoColor=white)
 
 <p align="center">
     <a href="#sobre">Sobre</a> • 
     <a href="#grupo">Integrantes do Grupo</a> •
+    <a href="#requisitos">Requisitos</a> •
     <a href="#how-it-works">Funcionalidades</a> •
     <a href="#endpoints">Endpoints da API</a> •
     <a href="#licença">Licença</a>
@@ -40,6 +40,12 @@ várias Tarefas).<br>
 • Construir uma interface web simples com HTML para interagir com a aplicação.
 
 <br>
+
+<h2 id="requisitos">📦 Requisitos</h2>
+
+```
+pip install -r requirements.txt
+```
 
 <h2 id="grupo">👥 Integrantes do Grupo 12</h2>
 <table align="center">
