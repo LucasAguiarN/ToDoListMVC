@@ -41,12 +41,6 @@ várias Tarefas).<br>
 
 <br>
 
-<h2 id="requisitos">📦 Requisitos</h2>
-
-```
-pip install -r requirements.txt
-```
-
 <h2 id="grupo">👥 Integrantes do Grupo 12</h2>
 <table align="center">
   <tr>
@@ -70,6 +64,12 @@ pip install -r requirements.txt
     </td>
   </tr>
 </table>
+
+<h2 id="requisitos">📦 Requisitos</h2>
+
+```
+pip install -r requirements.txt
+```
 
 <h2 id="how-it-works">⚙️ Funcionalidades</h2>
 🔹 Cadastro de Usuário
