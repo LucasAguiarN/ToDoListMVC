@@ -41,7 +41,7 @@ várias Tarefas).<br>
 
 <br>
 
-<h2 id="grupo">👥 Integrantes do Grupo 12</h2>
+<h2 id="grupo">👥 Integrantes do Grupo</h2>
 <table align="center">
   <tr>
     <td align="center">
